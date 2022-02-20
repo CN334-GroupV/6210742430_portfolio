@@ -10,7 +10,10 @@
                 @else
                 <a href="{{ route('admin.login')}}" class="btn btn-success my-3">Admin login</a>
             @endauth
+
+            <button class="btn btn-danger my-3" onclick="location.href='{{ url('http://127.0.0.1:8000/') }}'" >Back to Portfolio</button>
         </div>
+
     </div>
 
     @if($message = Session::get('success'))

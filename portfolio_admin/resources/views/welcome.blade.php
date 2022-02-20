@@ -138,15 +138,20 @@
                     <div class="subheading mb-3">Programming Languages & Tools</div>
                     <i class="fab fa-python" style="width:80px;height:80px;"></i>
                     <p style="font-size:130%;"><b>Python<b><br> <li style="font-size:110%;">basic python</li></p>
+                    <br>
                     <i class="fab fa-css3-alt" style="width:80px;height:80px;"></i>
                     <p style="font-size:130%;"><b>Css<b><br> <li style="font-size:110%;">basic css</li><br><li style="font-size:110%;">Responsive</li><br><li style="font-size:110%;">Grid</li></p>
+                    <br>
                     <i class="fab fa-centos" style="width:80px;height:80px;"></i>
                     <p style="font-size:130%;"><b>Cent-os<b><br> <li style="font-size:110%;">basic command</li></p>
+                    <br>
                     <i class="fab fa-react" style="width:80px;height:80px;"></i>
                     <p style="font-size:130%;"><b>React<b><br> <li style="font-size:110%;">basic react</li></p>
+                    <br>
                     <i class="fab fa-html5" style="width:80px;height:80px;"></i>
                     <p style="font-size:130%;"><b>Html<b><br> <li style="font-size:110%;">basic html</li></p>
-
+                    
+                    <br>
                     <div class="subheading mb-3" style="font-size:140%;"><b>Workflow</b></div>
                     <ul class="fa-ul mb-0">
                         <li>

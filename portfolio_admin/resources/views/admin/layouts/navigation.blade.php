@@ -6,7 +6,7 @@
                 <!-- Logo -->
                 <div class="shrink-0 flex items-center">
                     <a href="{{ route('admin.dashboard') }}">
-                        <x-application-logo class="block h-10 w-auto fill-current text-gray-600" />
+                        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/assets/img/tai.jpg" alt="..."  style="width: 50px; height: 50px;">
                     </a>
                 </div>
 
