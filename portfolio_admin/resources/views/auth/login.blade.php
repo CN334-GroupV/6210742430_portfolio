@@ -46,6 +46,12 @@
                         {{ __('Forgot your password?') }}
                     </a>
                 @endif
+            
+                <x-button class="ml-3" onclick="location.href='{{ url('register') }}'">
+                    <a  href="{{ route('register') }}">
+                        {{ __('Register') }}
+                    </a>
+                </x-button>
 
                 <x-button class="ml-3">
                     {{ __('Log in') }}
