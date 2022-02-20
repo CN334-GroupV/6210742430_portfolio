@@ -29,5 +29,8 @@ Route::namespace('Admin')->prefix('admin')->name('admin.')->group(function(){
         Route::get('login', 'AuthenticatedSessionController@create')->name('login');
         Route::post('login', 'AuthenticatedSessionController@store')->name('adminlogin');
     });
-    Route::post('dashboard', 'HomeController@index')->name('dashboard');
+    Route::middleware('admin')->group(function(){
+        Route::get('dashboard', 'HomeController@index')->name('dashboard');
+    });
+    Route::post('logout', 'Auth\AuthenticatedSessionController@destroy')->name('logout');
 });
